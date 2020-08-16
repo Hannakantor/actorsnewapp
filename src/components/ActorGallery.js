@@ -8,7 +8,7 @@ class ActorGalley extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="actorgallery">
           {/* for(let i=0; i < actorsProp.length; i++){
             <ActorComp actorObject={actorsProp[i]}/>
           } */}

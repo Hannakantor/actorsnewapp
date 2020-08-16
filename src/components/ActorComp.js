@@ -8,8 +8,8 @@ class ActorComp extends React.Component {
 
   render() {
     return (
-        <div>
-            <img src={this.props.actorObject.img}></img>
+        <div class = "actorimage">
+            <img height= "200px" src={this.props.actorObject.img}></img>
             <a className="actor-comp" href={this.props.actorObject.imdb}> {this.props.actorObject.fname + ' ' + this.props.actorObject.lname}</a>
       </div>
     );
